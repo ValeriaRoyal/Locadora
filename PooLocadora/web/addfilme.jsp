@@ -30,12 +30,12 @@
             <form>
               <tr> 
                 <td><input type="text"  name="Nfilme" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><input type="text"  name="Nfilme" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><input type="text"  name="Nfilme" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><input type="text"  name="Nfilme" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><input type="text"  name="Nfilme" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><input type="text"  name="Nfilme" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><a class="btn btn-lg btn-outline-light btn-block " href="Cadasfil.jsp" role="button">Cadastrar</a></td>
+                <td><input type="text"  name="Dire" id="inputUser" class="form-control mb-2"  required autofocus></td>
+                <td><input type="text"  name="elenco" id="inputUser" class="form-control mb-2"  required autofocus></td>
+                <td><input type="text"  name="Anolan" id="inputUser" class="form-control mb-2"  required autofocus></td>
+                <td><input type="text"  name="Genero" id="inputUser" class="form-control mb-2"  required autofocus></td>
+                <td><input type="text"  name="Descri" id="inputUser" class="form-control mb-2"  required autofocus></td>
+                <td><a class="btn btn-lg btn-outline-light btn-block " href=".jsp" role="button">Cadastrar</a></td>
               </tr>
             </form>
             </tbody>
