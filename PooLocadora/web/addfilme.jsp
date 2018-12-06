@@ -26,7 +26,6 @@
                 <th><div class="col-lg-2"></div></div></th>
                 
             </tr>
-        
             <form>
                 <div class="row">
                     <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>

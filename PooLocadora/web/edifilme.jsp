@@ -24,9 +24,7 @@
                 <th><div class="col-lg-2"></div>Gênero</div></th>
                 <th><div class="col-lg-2"></div>Descrição do fime</div></th>
                 <th><div class="col-lg-2"></div></div></th>
-                
             </tr>
-        
             <form>
                 <div class="row">
                     <td><div class="col-lg-2">O GRINCH</div></div></td>

@@ -33,8 +33,8 @@
                         Usuario
                       </a>
                       <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Login</a>
-                          <a class="dropdown-item" href="#">Logoff</a>
+                          <a class="dropdown-item" href="home.jsp">Login</a>
+                          <a class="dropdown-item" href="login.jsp">Logoff</a>
                       </div>
                   </li>
               </ul>
