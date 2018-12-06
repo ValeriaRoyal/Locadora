@@ -19,9 +19,9 @@
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Administrador</a>
               <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Excluir filme</a>
-                  <a class="dropdown-item" href="#">Adicionar filme</a>
-                  <a class="dropdown-item" href="#">Alterar filme</a>
+                  <a class="dropdown-item" href="delfilme.jsp">Excluir filme</a>
+                  <a class="dropdown-item" href="addfilme.jsp">Adicionar filme</a>
+                  <a class="dropdown-item" href="edifilme.jsp">Alterar filme</a>
               </div>
           </li>
       </ul>
