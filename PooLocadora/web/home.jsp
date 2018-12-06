@@ -12,9 +12,6 @@
           <%@include file="WEB-INF/jspf/navbar.jspf" %>
     </head>
     <body>
-        
-        
-        
         <div class="row">
             <div><h2>Filme</h2></div>
                 <div class="dropdown">
@@ -34,7 +31,7 @@
        
         </div>
         <div class="row">
-            <div class="col-lg-2"><div class="img"  style="background-image:url(IMG/03.jpg);"></a><a href="#" class="badge badge-danger">Ação</a></div></div>
+            <div class="col-lg-2"><div class="img" style="background-image:url(IMG/03.jpg);"></a><a href="#" class="badge badge-danger">Ação</a></div></div>
             <div class="col-lg-2"><div class="img" style="background-image:url(IMG/04.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
             <div class="col-lg-2"><div class="img" style="background-image:url(IMG/05.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
             <div class="col-lg-2"><div class="img" style="background-image:url(IMG/06.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : addfilme
-    Created on : 06/12/2018, 13:16:18
+    Document   : home
+    Created on : 05/12/2018, 21:20:23
     Author     : valeria
 --%>
 
@@ -8,38 +8,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <%@include file="WEB-INF/jspf/header.jspf" %>
-        <%@include file="WEB-INF/jspf/navbar.jspf" %>
+          <%@include file="WEB-INF/jspf/header.jspf" %>
+          <%@include file="WEB-INF/jspf/navbar.jspf" %>
     </head>
     <body>
         <div class="row">
-          <h2>Cadastro de filme</h2>
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th>Nome do filme</th>
-                <th>Direção</th>
-                <th>Elenco</th>
-                <th>Ano de lançamento</th>
-                <th>Gênero</th>
-                <th>Descrição do fime</th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody>
-            <form>
-              <tr> 
-                <td><input type="text"  name="Nfilme" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><input type="text"  name="Dire" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><input type="text"  name="elenco" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><input type="text"  name="Anolan" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><input type="text"  name="Genero" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><input type="text"  name="Descri" id="inputUser" class="form-control mb-2"  required autofocus></td>
-                <td><a class="btn btn-lg btn-outline-light btn-block " href=".jsp" role="button">Cadastrar</a></td>
-              </tr>
-            </form>
-            </tbody>
-          </table>
+            <div><h2>Dicionar filme</h2></div>
         </div>
+        <table class="table table-hover">
+            <tr>
+                <th><div class="col-lg-2"></div>Nome do filme</div></th>
+                <th><div class="col-lg-2"></div>Direção</div></th>
+                <th><div class="col-lg-2"></div>Elenco</div></th>
+                <th><div class="col-lg-2"></div>Ano de lançamento</div></th>
+                <th><div class="col-lg-2"></div>Gênero</div></th>
+                <th><div class="col-lg-2"></div>Descrição do fime</div></th>
+                <th><div class="col-lg-2"></div></div></th>
+                
+            </tr>
+        
+            <form>
+                <div class="row">
+                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><a class="btn btn-lg btn-outline-light btn-block  " href=".jsp" role="button">Adicionar</a></td>
+                </div>
+            </form>
+        </table>
+    <%@include file="WEB-INF/jspf/footer.jspf" %>
     </body>
 </html>
