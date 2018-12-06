@@ -13,7 +13,7 @@
     </head>
     <body>
         <div class="row">
-          <h2>Editar de filme</h2>
+          <h2>Editar cadastro do filme</h2>
           <table class="table table-hover">
             <thead>
               <tr>
