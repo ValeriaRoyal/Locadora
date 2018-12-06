@@ -1,0 +1,43 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<nav class="navbar navbar-expand-lg navbar-dark ">
+  <span class="navbar-brand mb-0 h1">Locadora</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="home.jsp">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="filme.jsp">Filmes <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="mylist.jsp"> Minha Lista <span class="badge badge-light">4</span><span class="sr-only">(current)</span></a>
+        </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Administrador</a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Excluir filme</a>
+                  <a class="dropdown-item" href="#">Adicionar filme</a>
+                  <a class="dropdown-item" href="#">Alterar filme</a>
+              </div>
+          </li>
+      </ul>
+        <div id="navbarNavDropdown" class="navbar-collapse collapse">
+              <ul class="navbar-nav mr-auto"></ul>
+              <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Usuario
+                      </a>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Login</a>
+                          <a class="dropdown-item" href="#">Logoff</a>
+                      </div>
+                  </li>
+              </ul>
+        </div>
+    </div>
+</nav>
