@@ -38,7 +38,13 @@
             <div class="col-lg-2"><div class="img" style="background-image:url(IMG/06.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
             <div class="col-lg-2"><div class="img" style="background-image:url(IMG/07.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
             <div class="col-lg-2"><div class="img" style="background-image:url(IMG/08.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
-                    </div>
+            <div class="col-lg-2"><div class="img" style="background-image:url(IMG/09.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
+            <div class="col-lg-2"><div class="img" style="background-image:url(IMG/10.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
+            <div class="col-lg-2"><div class="img" style="background-image:url(IMG/11.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
+            <div class="col-lg-2"><div class="img" style="background-image:url(IMG/12.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
+            <div class="col-lg-2"><div class="img" style="background-image:url(IMG/13.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
+            <div class="col-lg-2"><div class="img" style="background-image:url(IMG/01.jpg);"><a href="#" class="badge badge-danger">Ação</a></div></div>
+        </div>
     <%@include file="WEB-INF/jspf/footer.jspf" %>
     </body>
 </html>
