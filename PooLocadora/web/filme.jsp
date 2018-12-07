@@ -33,5 +33,6 @@
             </div>
             <div class="col-md-4"><div class="col-lg-7"><a class="btn btn-lg btn-outline-light btn-block " href="mylist.jsp" role="button">Adicionar a lista</a></div></div>
         </div>
+    <%@include file="WEB-INF/jspf/footer.jspf" %>
     </body>
 </html>

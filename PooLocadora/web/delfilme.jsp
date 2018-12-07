@@ -3,7 +3,8 @@
     Created on : 05/12/2018, 21:20:23
     Author     : valeria
 --%>
-<%@page import="br.com.fatecpg.parking.Fime"%>
+<%@page import="br.com.fatecpg.locadora.Filme"%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -42,7 +43,7 @@
             </tr>
         
             <form>
-                <% for (Price f : Filme.getFilme()) { %>
+                <% for (Filme f : Filme.getFilme()) { %>
                 <div class="row">
                     <td><div class="col-lg-2"><%= f.getId() %></div></div></td>
                     <td><div class="col-lg-2"><%= f.getNome() %></div></div></td>

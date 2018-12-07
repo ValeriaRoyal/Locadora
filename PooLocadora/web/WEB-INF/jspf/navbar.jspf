@@ -14,7 +14,7 @@
             <a class="nav-link" href="filme.jsp">Filmes <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="mylist.jsp"> Minha Lista <span class="badge badge-light">4</span><span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="mylist.jsp"> Minha Lista <span class="badge badge-light">6</span><span class="sr-only">(current)</span></a>
         </li>
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Administrador</a>

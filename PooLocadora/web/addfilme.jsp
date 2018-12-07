@@ -19,9 +19,9 @@
         String nome = request.getParameter("nome");
         String direcao = request.getParameter("direcao");
         String elenco = request.getParameter("elenco");
-        Date ano = request.getParameter("ano");
         String genero = request.getParameter("genero");
         String desc_filme = request.getParameter("desc_filme");
+        Date ano = request.getParameter("ano");
         try {
             Filme.addFilme(nome, direcao, elenco, genero, desc_filme, ano);
             response.sendRedirect(request.getRequestURI());
@@ -49,7 +49,7 @@
                     <td><div class="col-lg"><input type="text"  name="elenco" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
                     <td><div class="col-lg"><input type="text"  name="ano" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
                     <td><div class="col-lg"><input type="text"  name="genero" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
-                    <td><div class="col-lg"><input type="text"  name="desc_filme" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="date"  name="desc_filme" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
                     <td><a class="btn btn-lg btn-outline-light btn-block  " name="adicionar" role="button">Adicionar</a></td>
                 </div>
             </form>
