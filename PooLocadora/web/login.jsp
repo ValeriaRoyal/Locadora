@@ -4,6 +4,7 @@
     Author     : valeria
 --%>
 
+<%@page import="br.com.fatecpg.locadora.Usuario"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -11,7 +12,8 @@
         <%@include file="WEB-INF/jspf/header.jspf" %>
         
     </head>
-    <body>   
+    <body>
+        
         <form class="form-signin">
             <h1 class="h2 mb-3 font-weight-normal">Locadora</h1>
             <input type="text"  name="login" id="inputUser" class="form-control mb-2" placeholder="Nome do usuário" required autofocus>

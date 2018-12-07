@@ -41,8 +41,7 @@
                 <th><div class="col-lg-2"></div>Descrição do fime</div></th>
                 
             </tr>
-        
-            <form>
+        <form>
                 <% for (Filme f : Filme.getFilme()) { %>
                 <div class="row">
                     <td><div class="col-lg-2"><%= f.getId() %></div></div></td>

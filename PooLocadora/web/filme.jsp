@@ -18,7 +18,7 @@
             <div class="col-md-10">
                   
                 <div class="row">
-                    <div class="col-md-10"></div>
+                    <div class="col-md-10">Nome do filme</div>
                     <div class="col-md-10">
                         <ul class="nav nav-tabs">
                             <li class="nav-item">
