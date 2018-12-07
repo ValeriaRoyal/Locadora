@@ -13,11 +13,12 @@
     </head>
     <body>
         <div class="row">
-            <div class="col-md-2"><div class="img" style="background-image:url(IMG/04.jpg);"></div></div>
+            
+            <div class="col-md-2"><div class="img" style="background-image:url(IMG/02.jpg);"></div></div>
             <div class="col-md-10">
                   
                 <div class="row">
-                    <div class="col-md-10">O grinch</div>
+                    <div class="col-md-10"></div>
                     <div class="col-md-10">
                             <ul class="nav nav-tabs">
                             <li class="nav-item">

@@ -6,6 +6,7 @@
 package br.com.fatecpg.locadora;
 
 import java.sql.Date;
+import java.util.ArrayList;
 
 /**
  *
@@ -86,4 +87,27 @@ public class Filme {
         this.ano = ano;
     }
     
+    public static void removeFilme(long id) throws Exception{
+        String SQL = "DELETE FROM FILME WHERE ID = ?";
+        Object parameters[] = {id};
+        DatabaseConnector.execute(SQL, parameters);
+    }
+    public static ArrayList<Filme> getFilme() throws Exception {
+        String SQL = "SELECT * FROM FILME";
+        ArrayList<Filme> filmes = new ArrayList<>();
+        ArrayList<Object[]> list = DatabaseConnector.getQuery(SQL, new Object[]{});
+        for (int i = 0; i < list.size(); i++) {
+            Object row[] = list.get(i);
+            Filme f = new Filme(
+                    (long) row[0], 
+                    (String) row[1], 
+                    (String) row[2], 
+                    (String) row[3], 
+                    (String) row[4], 
+                    (String) row[5], 
+                    (Date) (java.util.Date) row[1]);
+            filmes.add(f);
+        }//arrumar isso
+        return filmes;
+    }
 }

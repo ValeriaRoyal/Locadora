@@ -11,6 +11,24 @@
         <%@include file="WEB-INF/jspf/header.jspf" %>
     </head>
     <body>
+        <%
+        if (request.getParameter("cadastrar") != null){
+        String nome = request.getParameter("Nome");
+        String end = request.getParameter("Endereco");
+        String cidade = request.getParameter("Cidade");
+        String estado = request.getParameter("Estado");
+        Date dt = request.getParameter("dt_nasc");
+        String email = request.getParameter("Email");
+        String usuario = request.getParameter("Usuario");
+        String login = request.getParameter("Login");
+        try {
+            Filme.addFilme(nome, end, cidade, estado, dt,email, usuario, login);
+            response.sendRedirect(request.getRequestURI());
+        } catch (Exception e){
+            error = e.getMessage();
+        }
+        } %>
+        
         <form class="form-signin">
             <h1 class="h2 mb-3 font-weight-normal">Cadastro</h1>
             <div class="row">
@@ -32,11 +50,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-6"><input type="text"  name="Usuario" id="inputUser" class="form-control mb-2" placeholder="Usuário"></div>
-                <div class="col-lg-6"><input type="password"  name="login" id="inputUser" class="form-control mb-2" placeholder="Senha"></div>
+                <div class="col-lg-6"><input type="password"  name="Login" id="inputUser" class="form-control mb-2" placeholder="Senha"></div>
             </div>
             <div class="row">
-                <div class="col-lg-6"><a class="btn btn-lg btn-outline-light btn-block " href=".jsp" role="button">Cadastrar</a></div>
-                <div class="col-lg-6"><a class="btn btn-lg btn-outline-light btn-block " href="login.jsp" role="button">Voltar</a></div>
+                <div class="col-lg-6"><a class="btn btn-lg btn-outline-light btn-block " name="voltar" role="button">Cadastrar</a></div>
+                <div class="col-lg-6"><a class="btn btn-lg btn-outline-light btn-block " name="cadastrar" role="button">Voltar</a></div>
             </div>
         </form>
     <%@include file="WEB-INF/jspf/footer.jspf" %>

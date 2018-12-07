@@ -45,12 +45,12 @@
             </tr>
             <form>
                 <div class="row">
-                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
-                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
-                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
-                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
-                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
-                    <td><div class="col-lg"><input type="text"  name="Nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="nome" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="direcao" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="elenco" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="ano" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="genero" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
+                    <td><div class="col-lg"><input type="text"  name="desc_filme" id="inputUser" class="form-control mb-2"  required autofocus></div></div></td>
                     <td><a class="btn btn-lg btn-outline-light btn-block  " name="adicionar" role="button">Adicionar</a></td>
                 </div>
             </form>
