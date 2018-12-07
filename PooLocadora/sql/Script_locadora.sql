@@ -24,8 +24,8 @@ create table dt_aq(
     id BIGINT not null primary key
         generated ALWAYS as identity
         (start with 1, INCREMENT by 1),
-    data_aq data,
-    data_dev data,
+    data_aq date,
+    data_dev timestamp,
 );
 
 create table cadastro (
@@ -41,6 +41,3 @@ create table cadastro (
     login varchar (20) not null,
     passwordHash BIGINT not null
 );
-
-insert into cadastro values
-    (default,'valeria', 'rua sononerome','sao vicente','sp',35441722,?,'val',123456);
