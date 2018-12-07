@@ -3,7 +3,7 @@
     Created on : 05/12/2018, 21:20:23
     Author     : valeria
 --%>
-
+<%@page import="br.com.fatecpg.parking.Filme"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -27,17 +27,18 @@
             </tr>
             
             <form>
-                <% for (Price p : Price.getPrices()) { %>
+            <% for (Filme f : Filme.getFilme()) { %>
                 <div class="row">
-                    <td><div class="col-lg-2">O GRINCH</div></div></td>
-                    <td><div class="col-lg-2">Yarrow Cheney</div></div></td>
-                    <td><div class="col-lg-2">Lázaro Ramos, Benedict Cumberbatch, Cameron Seely</div></div></td>
-                    <td><div class="col-lg-2">08/11/2018</div></div></td>
-                    <td><div class="col-lg-2">Animação</div></div></td>
-                    <td><div class="col-lg-8">O Grinch é um ser verde que não suporta o Natal e, todo ano, precisa aturar que os habitantes da cidade vizinha de Quemlândia comemorem a data. Decidido a acabar com a festa, ele resolve invadir os lares dos vizinhos e roubar tudo o que está relacionado ao Natal.</div></div></td>
-                    <td><a class="btn btn-lg btn-outline-light btn-block  " href=".jsp" role="button">Editar</a></td>
+                    <td><div class="col-lg-2"><%= f.getId() %></div></div></td>
+                    <td><div class="col-lg-2"><%= f.getDirecao() %></div></div></td>
+                    <td><div class="col-lg-2"><%= f.getElenco() %></div></div></td>
+                    <td><div class="col-lg-2"><%= f.getAno() %></div></div></td>
+                    <td><div class="col-lg-2"><%= f.getGenero() %></div></div></td>
+                    <td><div class="col-lg-8"><%= f.getDescr() %></div></div></td>
+                    <td><a class="btn btn-lg btn-outline-light btn-block" name="edit"  role="button">Editar</a></td>
                 </div>
             </form>
+            <% } %>
         </table>
     <%@include file="WEB-INF/jspf/footer.jspf" %>
     </body>

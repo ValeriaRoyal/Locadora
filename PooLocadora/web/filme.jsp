@@ -20,14 +20,14 @@
                 <div class="row">
                     <div class="col-md-10"></div>
                     <div class="col-md-10">
-                            <ul class="nav nav-tabs">
+                        <ul class="nav nav-tabs">
                             <li class="nav-item">
                               <a class="nav-link active" href="#">Descrição</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#">Detalhes</a>
                             </li>
-                          </ul>
+                        </ul>
                     </div>
                 </div>
             </div>
